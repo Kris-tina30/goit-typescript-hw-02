@@ -8,6 +8,6 @@ export interface Photo {
 }
 
 export interface Data {
-  results: [];
+  results: Photo[];
   total: number;
 }
